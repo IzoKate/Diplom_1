@@ -1,14 +1,16 @@
 from typing import List
 
-from praktikum.bun import Bun
-from praktikum.burger import Burger
-from praktikum.database import Database
-from praktikum.ingredient import Ingredient
+from bun import Bun
+from burger import Burger
+from database import Database as datebase
+from ingredient import Ingredient
 
 
 def main():
     # Инициализируем базу данных
-    database: Database = Database()
+    database: datebase = datebase()
+
+
 
     # Создадим новый бургер
     burger: Burger = Burger()
