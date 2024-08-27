@@ -1,10 +1,10 @@
 
 import pytest
 
-from bun import Bun
-from burger import Burger
+from praktikum.bun import Bun
+from praktikum.burger import Burger
 from constants import Constants
-from ingredient import Ingredient
+from praktikum.ingredient import Ingredient
 
 
 @pytest.fixture

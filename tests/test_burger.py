@@ -1,5 +1,5 @@
 
-from burger import Burger
+from praktikum.burger import Burger
 from constants import Constants
 
 class TestBurger:

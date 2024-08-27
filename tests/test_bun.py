@@ -1,5 +1,4 @@
-import pytest
-from bun import Bun
+from praktikum.bun import Bun
 from constants import Constants
 
 

@@ -1,10 +1,9 @@
 import pytest
 
-from ingredient import Ingredient
+from praktikum.ingredient import Ingredient
 from constants import Constants
 
 class TestIngredient:
-
     # Тестируем метод _init_ и все его значения
     @pytest.mark.parametrize("type, name, price",
         [
